@@ -19,7 +19,7 @@ The aim of the project is to convert to ASCII art according to the data received
 ## USAGE 
 
 - $ go run . "Hello\nWorld" standard | cat -e
-
+```
  _    _          _   _          $
 | |  | |        | | | |         $
 | |__| |   ___  | | | |   ___   $
@@ -36,10 +36,11 @@ __          __                 _       _  $
     \/  \/      \___/  |_|    |_|  \__,_| $
                                           $
                                           $
-
+```
 
 
 - $ go run . "Hello GO" thinkertoy | cat -e
+```
 
                                    $
 o  o     o o            o-o   o-o  $
@@ -49,7 +50,7 @@ O--O o-o | | o-o       |  -o |   | $
 o  o o-o o o o-o        o-o   o-o  $
                                    $
                                    $
-
+```
 ## AUTHOR
 
 [Ömer Faruk POLAT](https://www.linkedin.com/in/oomer-faruk-polat/)
